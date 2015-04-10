@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Framework_Graphe/Program.cs">
+    <Files>
+      <File FileName="Framework_Graphe/Program.cs" Line="41" Column="5" />
+      <File FileName="Framework_Graphe/Main/generecite/template/GGraphe.cs" Line="6" Column="17" />
+      <File FileName="Framework_Graphe/Main/generecite/template/GSommet.cs" Line="14" Column="44" />
+      <File FileName="Framework_Graphe/Main/generecite/template/GArete.cs" Line="6" Column="17" />
+      <File FileName="Framework_Graphe/Main/generecite/racine/Racine.cs" Line="3" Column="27" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/graphe/Graphe.cs" Line="7" Column="17" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/graphe/Sommet.cs" Line="7" Column="43" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/graphe/Arete.cs" Line="9" Column="4" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/molecule/Atom.cs" Line="7" Column="15" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/molecule/Liaison.cs" Line="7" Column="44" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/molecule/Molecule.cs" Line="5" Column="58" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/reseau/Lien.cs" Line="14" Column="1" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/reseau/Noeud.cs" Line="5" Column="23" />
+      <File FileName="Framework_Graphe/Main/generecite/graphes/reseau/Reseau.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

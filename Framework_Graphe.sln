@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework_Graphe", "Framework_Graphe\Framework_Graphe.csproj", "{B07F73A4-2DFF-4261-A86C-738D37A10FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07F73A4-2DFF-4261-A86C-738D37A10FDB}.Debug|x86.ActiveCfg = Debug|x86
+		{B07F73A4-2DFF-4261-A86C-738D37A10FDB}.Debug|x86.Build.0 = Debug|x86
+		{B07F73A4-2DFF-4261-A86C-738D37A10FDB}.Release|x86.ActiveCfg = Release|x86
+		{B07F73A4-2DFF-4261-A86C-738D37A10FDB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Framework_Graphe\Framework_Graphe.csproj
+	EndGlobalSection
+EndGlobal
