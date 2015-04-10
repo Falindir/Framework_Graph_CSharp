@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B07F73A4-2DFF-4261-A86C-738D37A10FDB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Framework_Graphe</RootNamespace>
+    <AssemblyName>Framework_Graphe</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Main\generecite\racine\Racine.cs" />
+    <Compile Include="Main\generecite\template\GGraphe.cs" />
+    <Compile Include="Main\generecite\template\GSommet.cs" />
+    <Compile Include="Main\generecite\template\GArete.cs" />
+    <Compile Include="Main\generecite\graphes\graphe\Graphe.cs" />
+    <Compile Include="Main\generecite\graphes\graphe\Sommet.cs" />
+    <Compile Include="Main\generecite\graphes\graphe\Arete.cs" />
+    <Compile Include="Main\generecite\graphes\molecule\Atom.cs" />
+    <Compile Include="Main\generecite\graphes\molecule\Molecule.cs" />
+    <Compile Include="Main\generecite\graphes\molecule\Liaison.cs" />
+    <Compile Include="Main\generecite\graphes\reseau\Lien.cs" />
+    <Compile Include="Main\generecite\graphes\reseau\Reseau.cs" />
+    <Compile Include="Main\generecite\graphes\reseau\Noeud.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Main\" />
+    <Folder Include="Main\generecite\" />
+    <Folder Include="Main\generecite\template\" />
+    <Folder Include="Main\generecite\graphes\" />
+    <Folder Include="Main\generecite\racine\" />
+    <Folder Include="Main\generecite\graphes\graphe\" />
+    <Folder Include="Main\generecite\graphes\molecule\" />
+    <Folder Include="Main\generecite\graphes\reseau\" />
+  </ItemGroup>
+</Project>
